@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=source\ start\ size
+comment0.target=MyWordGram(java.lang.String[],\ int,\ int)
+comment1.params=pos
+comment1.target=java.lang.String\ wordAt(int)
+comment2.params=
+comment2.target=int\ hashCode()
+comment3.params=o
+comment3.target=boolean\ equals(java.lang.Object)
+comment4.params=
+comment4.target=int\ length()
+comment5.params=word
+comment5.target=MyWordGram\ shiftAdd(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

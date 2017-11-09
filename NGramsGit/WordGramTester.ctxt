@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testMyWordGram()
+comment0.text=\r\n\ \ \ \ public\ void\ testWordGram(){\r\n\t\tString\ source\ \=\ "this\ is\ a\ test\ this\ is\ a\ test\ this\ is\ a\ test\ of\ words";\r\n\t\tString[]\ words\ \=\ source.split("\\\\s+");\r\n\t\tint\ size\ \=\ 4;\r\n\t\tfor(int\ index\ \=\ 0;\ index\ <\=\ words.length\ -\ size;\ index\ +\=\ 1)\ {\r\n\t\t\tWordGram\ wg\ \=\ new\ WordGram(words,index,size);\r\n\t\t\tSystem.out.println(index+"\\t"+wg.length()+"\\t"+wg);\r\n\t\t}\r\n}
+comment1.params=
+comment1.target=void\ testMyWgShiftAdd()
+comment2.params=
+comment2.target=void\ testMyWordGramEquals()
+comment2.text=\r\n\t\ \ \ public\ void\ testWordGramEquals(){\r\n\t\tString\ source\ \=\ "this\ is\ a\ test\ this\ is\ a\ test\ this\ is\ a\ test\ of\ words";\r\n\t\tString[]\ words\ \=\ source.split("\\\\s+");\r\n\t\tArrayList<WordGram>\ list\ \=\ new\ ArrayList<WordGram>();\r\n\t\tint\ size\ \=\ 4;\r\n\t\tfor(int\ index\ \=\ 0;\ index\ <\=\ words.length\ -\ size;\ index\ +\=\ 1)\ {\r\n\t\t\tWordGram\ wg\ \=\ new\ WordGram(words,index,size);\r\n\t\t\tlist.add(wg);\r\n\t\t}\r\n\t\tWordGram\ first\ \=\ list.get(0);\r\n\t\tSystem.out.println("checking\ "+first);\r\n\t\tfor(int\ k\=0;\ k\ <\ list.size();\ k++){\r\n\t\t\t//if\ (first\ \=\=\ list.get(k))\ {\r\n\t\t\t\ \ if\ (first.equals(list.get(k)))\ {\r\n\t\t\t\tSystem.out.println("matched\ at\ "+k+"\ "+list.get(k));\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n
+numComments=3
